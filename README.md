@@ -1,4 +1,5 @@
 # Checkers
+update Sept 20 2018
 
 Checkers is a tool that runs a series of commands on a system in order to determine everything about the system that could be needed to perform privilege escalation and or exploits.
 
@@ -19,16 +20,6 @@ optional arguments:
 ```
 
 # Installation
-wget:
-```
-wget -O checkers.py https://git.io/fAiS1
-```
-
-cURL:
-```
-curl -o checkers.py https://git.io/fAiS1
-```
-
 Git:
 ```bash
 git clone https://github.com/ekultek/checkers && cd checkers && python checkers.py
